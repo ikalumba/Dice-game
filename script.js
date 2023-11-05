@@ -2,14 +2,14 @@
 
 // Player names
 
-// let name0 = prompt('Player 1, enter yor name', 'Player 1');
-// let name1 = prompt('Player 2, enter your name', 'Player 2');
+let name0 = prompt('Player 1, enter yor name', 'Player 1');
+let name1 = prompt('Player 2, enter your name', 'Player 2');
 
-// const player0NameEl = document.querySelector('#name--0');
-// const player1NameEl = document.querySelector('#name--1');
+const player0NameEl = document.querySelector('#name--0');
+const player1NameEl = document.querySelector('#name--1');
 
-// player0NameEl.textContent = name0 !== '' ? name0 : 'Player 1';
-// player1NameEl.textContent = name1 !== '' ? name1 : 'Player 2';
+player0NameEl.textContent = name0 !== '' ? name0 : 'Player 1';
+player1NameEl.textContent = name1 !== '' ? name1 : 'Player 2';
 
 // Selecting elements
 const btnNewGame = document.querySelector('.btn--new');
